@@ -54,26 +54,29 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+This project documents my experience building a Decentralized Application (dApp) from the ground up. Part of my journey was to setup an easy to use local environment in which I could develop and deploy Smart Contracts :smile:. My operating system of choice is Windows 10 but I beleive some of the concepts/setups will be similar to other operating systems.
 
 Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+* Smart Contracts are amazing and your time should be focused on creating them in the quickest possible way. 
+* This project solves the pain of setting up your local environment.
+* A concise crash course into dApps
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
+Of course, no one setup will serve all projects since your needs may be different. So I'll be adding alternative development tools in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
+Here is a list of software/frameworks that we will be using to get up and running:
+* [VS Code](https://??????.com)
+* [Git](https://??????.com)
+* [Metamask](https://??????.com)
+* [Ganache](https://??????.com)
+* [Truffle](https://??????.com)
+* [Web3](https://??????.com)
+* [npm](https://??????.com)
+* [Python](https://??????.com)
 * [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
-
 
 
 <!-- GETTING STARTED -->
