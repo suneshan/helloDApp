@@ -5,10 +5,10 @@
     <img src="images/HWlogo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Hello all over the World </h3>
+  <h3 align="center">Hello World: A Decentralised Application</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An introductory project to building and deploying a dApp in your local environment!
     <br />
     <a href=""><strong>Explore the docs »</strong></a>
     <br />
@@ -77,6 +77,14 @@ Here is a list of software/frameworks that we will be using to get up and runnin
 * [npm](https://??????.com)
 * [Python](https://??????.com)
 * [JQuery](https://jquery.com)
+
+
+| | | | |
+|-|-|-|-|
+|[VS Code](https://??????.com)|[Metamask](https://??????.com)|[Git](https://??????.com)|[Ganache](https://??????.com)|
+|[Truffle](https://??????.com)|[Web3](https://??????.com)|[npm](https://??????.com)|[Python](https://??????.com)|
+|[JQuery](https://jquery.com)| | | |
+|||||
 
 
 <!-- GETTING STARTED -->
