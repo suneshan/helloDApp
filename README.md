@@ -8,7 +8,7 @@
   <h3 align="center">Hello World: A Decentralised Application</h3>
 
   <p align="center">
-    An introductory project to building and deploying a dApp in your local environment!
+    An introductory project to building and deploying a dApp to your local environment!
     <br />
     <a href=""><strong>Explore the docs »</strong></a>
     <br />
@@ -54,7 +54,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project documents my experience building a Decentralized Application (dApp) from the ground up. Part of my journey was to setup an easy to use local environment in which I could develop and deploy Smart Contracts :smile:. My operating system of choice is Windows 10 but I beleive some of the concepts/setups will be similar to other operating systems.
+This project documents my experience building a Decentralized Application (dApp) from the ground up. Part of my journey was to setup an easy to use local environment in which I could develop and deploy Smart Contracts. My operating system of choice is Windows 10 but I beleive some of the concepts/setups will be similar to other operating systems.
 
 Here's why:
 * Smart Contracts are amazing and your time should be focused on creating them in the quickest possible way. 
@@ -69,25 +69,54 @@ Of course, no one setup will serve all projects since your needs may be differen
 
 Here is a list of software/frameworks that we will be using to get up and running:
 
-[VS Code](https://??????.com) | [Metamask](https://??????.com) | [Git](https://??????.com) | [Ganache](https://??????.com) | [Truffle](https://??????.com) | [Web3](https://??????.com) | [npm](https://??????.com) | [Python](https://??????.com) | [JQuery](https://jquery.com)
------------------------------ | ------------------------------ | ------------------------- | ----------------------------- | ----------------------------- | ------------------------------ | ------------------------- | ----------------------------- | ----------------------------- 
+[VS Code](https://code.visualstudio.com/) | [Metamask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) | [Git](https://??????.com) | [Ganache](https://www.trufflesuite.com/ganache) | [Truffle](https://??????.com) | [Web3](https://??????.com) | [Node.js and npm](https://nodejs.org/en/) | [Python](https://??????.com) | [JQuery](https://jquery.com) | [Chrome](https://www.google.com/chrome/) 
+----------------------------- | ------------------------------ | ------------------------- | ----------------------------- | ----------------------------- | ------------------------------ | ------------------------- | ----------------------------- | ----------------------------- | ------------------------------
 
 
-<!-- GETTING STARTED -->
-## Getting Started
+## Installation
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Ok first things first, lets install the above software (if not already installed).
 
-### Prerequisites
+### VS Code
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
+I was looking for an IDE to start my development. I found that VS Code was best suited for my needs as it was light and easy to use with a strong developer community. Visit the the [VS download](https://code.visualstudio.com/docs/?dv=win64user). Once installed click the extension icon in the left hand pane, search and install the following extensions:
+* Live Server by Ritwick Dey - A light weight server to serve up dynamic pages
+* solidity by Juan Blanco - Support for the solidity language such as Syntax highlighting, Snippets etc..
+* Blockchain Development Kit for Ethereum by Microsoft - Simplifies the creation, build and deployment of Smart Contracts
+
+### Node.js and npm
+
+[Node.js](https://nodejs.org/dist/v14.16.0/node-v14.16.0-x64.msi) is an open-source JavaScript runtime environment. npm is a package manager, that provides access to a large repository of JavaScript packages. The nodejs executable includes both the node and npm executables.
+
+ ```sh
+   $ npm --version
+   6.14.11
+   $ node -v
+   v14.16.0
   ```
 
-### Installation
+### Ganache
+
+Ganache is a glaze, icing, sauce or filling for pastries. Really :smile:....ok if you search for Ganache you might end up with some interesting food recipes. The [Ganache download](https://github.com/trufflesuite/ganache/releases/download/v2.5.4/Ganache-2.5.4-win-x64.appx) we looking for is your very own personal blockchain without the bloat of a real blockchain. Ganache is great as it can be used during the entire development life cycle promoting a safe and re usable environment.
+
+### Truffle
+
+Truffle is a development environment and testing framework amongst other things. It is designed to aid in the development of dApps. As you will see below, we will use Truffle commands to create the scaffolding for our helloworld project.
+
+```sh
+   $ npm install truffle -g
+  ```
+
+
+### Metamask
+
+[Metamask Chrome Extension](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) is a software wallet that allows interaction with the Ethereum blockchain. Typically one would sign up using a password and can import an existing account using a seed phrase. As we are in development mode, the *Important Point* to consider here is that we must **NOT** be connected to any Main Net.
+dApp ---> Metamask ---> blockchain
+
+<!-- GETTING STARTED -->
+### Getting Started
+
+Now that we have everything installed lets dive into creating our helloworld contract.
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
@@ -144,9 +173,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Suneshan Naidoo - [@suneshan1](https://twitter.com/suneshan1) - www.suneshan.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/suneshan/helloworld](https://github.com/suneshan/helloworld)
 
 
 
