@@ -118,21 +118,40 @@ dApp ---> Metamask ---> blockchain
 
 Now that we have everything installed lets dive into creating our helloworld contract.
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Create a new directory and setup an initial project structure
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   $ mkdir helloworld
+   $ cd helloworld/
+   $ truffle init
+   $ ls -al
+   $ ls contracts/
+   $ truffle create contract HelloWorld
+   $ ls contracts/
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
+2. In Visual Studio Code update the HelloWorld contract as per [contracts\HelloWorld.sol](https://github.com/suneshan/helloworld/blob/master/contracts/HelloWorld.sol)
+3. Create a HelloWorld migration file (used for deploying) as per [migrations\2_helloworld_migration.js](https://github.com/suneshan/helloworld/blob/master/migrations/2_helloworld_migration.js)
+4. Add a compiler version to `truffle-config.js`
    ```JS
-   const API_KEY = 'ENTER YOUR API';
+    solc: {
+      version: "0.7.0"
+    }
    ```
-
-
+5. Now we ready to build our contracts. Right-click on one of the contract files (`HelloWorld.sol`) and click _Build Contracts_ from the drop down menu
+6. Next we need to deploy our contract. In order to do this we will start up our very own BlockChain by starting up Ganache GUI and clicking _QUICKSTART_
+7. Notice the RPC Server is running on port 7545 
+8. Add a Network to `truffle-config.js`
+  ```JS
+     networks: {
+      loc_ganache_ganache: {
+        network_id: "*",
+        port: 7545,
+        host: "127.0.0.1"
+      }
+     }
+   ```
+9. Another way to add a Network in VS Code is in the bottom left we _Connect to network_ and select _Local Service_ from the _Command Palette_, click enter to confirm the default network name and change the port to 7545 and click enter
+10. Now we ready to deploy our smart contracts. Right-click on one of the contract files (`HelloWorld.sol`) and click _Deploy Contracts_ from the drop down menu. Select the network from the _Command Palette_ i.e. _loc_ganache_ganache_
+11. Done. In the Ganache GUI notice the address at index 0 has a transaction count greater than 0 and the balance is a bit less.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
