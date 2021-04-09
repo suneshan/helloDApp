@@ -34,7 +34,7 @@
       </ul>
     </li>
     <li>
-    <li><a href="#installation">Installation</a></li>
+      <a href="#installation">Installation</a>
       <ul>
         <li><a href="#vs-code">VS Code</a></li>
         <li><a href="#node.js-and-npm">Node.js and npm</a></li>
