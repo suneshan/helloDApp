@@ -34,15 +34,17 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+    <li><a href="#installation">Installation</a></li>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#vs-code">VS Code</a></li>
+        <li><a href="#node.js-and-npm">Node.js and npm</a></li>
+        <li><a href="#ganache">Ganache</a></li>
+        <li><a href="#truffle">Truffle</a></li>
+        <li><a href="#metamask">Metamask</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#getting-started">Getting Started</a><li>
+    <li><a href="#next-steps">Next Steps</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
@@ -69,8 +71,8 @@ Of course, no one setup will serve all projects since your needs may be differen
 
 Here is a list of software/frameworks that we will be using to get up and running:
 
-[VS Code](https://code.visualstudio.com/) | [Metamask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) | [Git](https://??????.com) | [Ganache](https://www.trufflesuite.com/ganache) | [Truffle](https://??????.com) | [Web3](https://??????.com) | [Node.js and npm](https://nodejs.org/en/) | [Python](https://??????.com) | [JQuery](https://jquery.com) | [Chrome](https://www.google.com/chrome/) 
------------------------------ | ------------------------------ | ------------------------- | ----------------------------- | ----------------------------- | ------------------------------ | ------------------------- | ----------------------------- | ----------------------------- | ------------------------------
+[VS Code](https://code.visualstudio.com/) | [Metamask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) | [Git](https://git-scm.com/downloads) | [Ganache](https://www.trufflesuite.com/ganache) | [Truffle](https://www.trufflesuite.com/truffle) | [Web3](https://web3js.readthedocs.io/en/v1.3.4/#) | [Node.js and npm](https://nodejs.org/en/) | [JQuery](https://jquery.com) | [Chrome](https://www.google.com/chrome/) 
+----------------------------- | ------------------------------ | ------------------------- | ----------------------------- | ----------------------------- | ------------------------------ | ------------------------- | ----------------------------- | -----------------------------
 
 
 ## Installation
@@ -101,7 +103,7 @@ Ganache is a glaze, icing, sauce or filling for pastries. Really :smile:....ok i
 
 ### Truffle
 
-Truffle is a development environment and testing framework amongst other things. It is designed to aid in the development of dApps. As you will see below, we will use Truffle commands to create the scaffolding for our helloworld project.
+[Truffle](https://www.trufflesuite.com/truffle) is a development environment and testing framework amongst other things. It is designed to aid in the development of dApps. As you will see below, we will use Truffle commands to create the scaffolding for our helloworld project.
 
 ```sh
    $ npm install truffle -g
@@ -153,32 +155,12 @@ Now that we have everything installed lets dive into creating our helloworld con
 10. Now we ready to deploy our smart contracts. Right-click on one of the contract files (`HelloWorld.sol`) and click _Deploy Contracts_ from the drop down menu. Select the network from the _Command Palette_ i.e. _loc_ganache_ganache_
 11. Done. In the Ganache GUI notice the address at index 0 has a transaction count greater than 0 and the balance is a bit less.
 
-<!-- USAGE EXAMPLES -->
-## Usage
+<!-- NEXT STEPS -->
+## Next Steps
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Next we build an HTML Client (the dApp) 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+_For more examples, please refer to the [Documentation](https://suneshan.com/dapp/helloworld)_
 
 
 
@@ -200,34 +182,10 @@ Project Link: [https://github.com/suneshan/helloworld](https://github.com/sunesh
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
+* [Using MetaMask with Ganache](https://www.trufflesuite.com/docs/truffle/getting-started/truffle-with-metamask#using-metamask-with-ganache)
+* [GitHub Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
+* [Build Your First Dapp With Web3.js](https://betterprogramming.pub/build-your-first-dapp-with-web3-js-9a7306d16a61)
 * [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
-
-
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+* [MetaMask Permissions](https://docs.metamask.io/guide/rpc-api.html#permissions)
+* [How to Test Ethereum Smart Contracts](https://betterprogramming.pub/how-to-test-ethereum-smart-contracts-35abc8fa199d)
