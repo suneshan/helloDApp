@@ -182,10 +182,10 @@ Project Link: [https://github.com/suneshan/helloworld](https://github.com/sunesh
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [Using MetaMask with Ganache](https://www.trufflesuite.com/docs/truffle/getting-started/truffle-with-metamask#using-metamask-with-ganache){:target="_blank"}
-* [GitHub Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code){:target="_blank"}
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet){:target="_blank"}
-* [Build Your First Dapp With Web3.js](https://betterprogramming.pub/build-your-first-dapp-with-web3-js-9a7306d16a61){:target="_blank"}
-* [Choose an Open Source License](https://choosealicense.com){:target="_blank"}
-* [MetaMask Permissions](https://docs.metamask.io/guide/rpc-api.html#permissions){:target="_blank"}
-* [How to Test Ethereum Smart Contracts](https://betterprogramming.pub/how-to-test-ethereum-smart-contracts-35abc8fa199d){:target="_blank"}
+* [Using MetaMask with Ganache](https://www.trufflesuite.com/docs/truffle/getting-started/truffle-with-metamask#using-metamask-with-ganache)
+* [GitHub Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Build Your First Dapp With Web3.js](https://betterprogramming.pub/build-your-first-dapp-with-web3-js-9a7306d16a61)
+* [Choose an Open Source License](https://choosealicense.com)
+* [MetaMask Permissions](https://docs.metamask.io/guide/rpc-api.html#permissions)
+* [How to Test Ethereum Smart Contracts](https://betterprogramming.pub/how-to-test-ethereum-smart-contracts-35abc8fa199d)
