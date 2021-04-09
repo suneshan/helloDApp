@@ -1,0 +1,7 @@
+{
+    "projectName": "HelloDApp",
+    "namespace": "HelloDApp.Contracts",
+    "lang": 0,
+    "autoCodeGen": true,
+    "projectPath": "../"
+}
