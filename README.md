@@ -52,7 +52,6 @@
 </details>
 
 
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -155,6 +154,7 @@ Now that we have everything installed lets dive into creating our helloworld con
 10. Now we ready to deploy our smart contracts. Right-click on one of the contract files (`HelloWorld.sol`) and click _Deploy Contracts_ from the drop down menu. Select the network from the _Command Palette_ i.e. _loc_ganache_ganache_
 11. Done. In the Ganache GUI notice the address at index 0 has a transaction count greater than 0 and the balance is a bit less.
 
+
 <!-- NEXT STEPS -->
 ## Next Steps
 
@@ -163,13 +163,10 @@ Next we build an HTML Client (the dApp)
 _For more examples, please refer to the [Documentation](https://suneshan.com/dapp/helloworld)_
 
 
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-
 
 <!-- CONTACT -->
 ## Contact
@@ -177,7 +174,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Suneshan Naidoo - [@suneshan1](https://twitter.com/suneshan1) - www.suneshan.com
 
 Project Link: [https://github.com/suneshan/helloworld](https://github.com/suneshan/helloworld)
-
 
 
 <!-- ACKNOWLEDGEMENTS -->
